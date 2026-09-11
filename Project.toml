@@ -15,8 +15,11 @@ StructWalk = "31cdf514-beb7-4750-89db-dda9d2eb8d3d"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 WordTokenizers = "796a5d58-b03d-544a-977e-18100b691f6e"
 
+[sources]
+PrimitiveOneHot = {rev = "master", url = "https://github.com/wardjm/PrimitiveOneHot.jl"}
+
 [compat]
-DataStructures = "0.18"
+DataStructures = "0.18, 0.19"
 DoubleArrayTries = "0.1.1"
 FuncPipelines = "0.1, 0.2"
 PartialFunctions = "1.1"
@@ -25,7 +28,7 @@ RustRegex = "0.1"
 StaticArrays = "1.3"
 StructWalk = "0.2"
 WordTokenizers = "0.5"
-julia = "1.6"
+julia = "1.11"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
