@@ -1,5 +1,28 @@
 # TextEncodeBase
 
+<!-- wardjm-fork-note -->
+> [!NOTE]
+> **This is a maintained fork of [chengchingwen/TextEncodeBase.jl](https://github.com/chengchingwen/TextEncodeBase.jl).** The upstream package is no longer
+> actively updated, so I'm keeping this fork working with current Julia and current versions of its
+> dependencies (Julia 1.11+ and WordTokenizers 1). The fork keeps the original package name and UUID but is not
+> registered in General, so install it by URL:
+>
+> ```julia
+> using Pkg
+> Pkg.add([
+>     PackageSpec(url = "https://github.com/wardjm/PrimitiveOneHot.jl"),
+>     PackageSpec(url = "https://github.com/JuliaText/WordTokenizers.jl"),
+>     PackageSpec(url = "https://github.com/wardjm/TextEncodeBase.jl"),
+> ])
+> ```
+>
+> The other packages in that list are forks this one depends on (PrimitiveOneHot), plus the unreleased
+> WordTokenizers 1.0 from upstream master. On Julia 1.13+ Pkg follows this repo's `[sources]`, so
+> `Pkg.add(url = "https://github.com/wardjm/TextEncodeBase.jl")` alone is enough there.
+>
+> Issues and pull requests are welcome on this fork.
+
+
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://chengchingwen.github.io/TextEncodeBase.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://chengchingwen.github.io/TextEncodeBase.jl/dev)
 [![Build Status](https://github.com/chengchingwen/TextEncodeBase.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/chengchingwen/TextEncodeBase.jl/actions/workflows/CI.yml?query=branch%3Amain)
